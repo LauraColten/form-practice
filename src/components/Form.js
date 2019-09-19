@@ -24,7 +24,6 @@ class Form extends Component {
 
     return (
       <div>
-        <h1>News Articles</h1>
         <form onSubmit={this.handleSubmit}>
           <input
             placeholder="Enter a search term..."
